@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+h2 {
+	color: #3080d0;
+	font-weight: bolder;
+	font-size: 15px;
+	text-align: center;
+	display: inline;
+}
+
+#board {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+#board td {
+	border: 2px solid gray;
+	padding: 0px;
+}
+
+.tile {
+	color: #ffffff;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tilenumber {
+	background: url('images/tile.gif');
+}
+
+.tile a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#gameOver {
+	position: absolute;
+	left: -1px;
+	height: auto;
+	background-color: #ffffff;
+	text-align: center;
+	border: 1px solid #3080D0;
+	padding: 10px 5px;
+	display: none;
+}
